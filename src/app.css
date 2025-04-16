@@ -1,19 +1,13 @@
 :root {
 	--rich-black: hsl(207, 95%, 8%);
-	--lavender-blush: hsl(333, 21%, 92%);
-	--celadon: hsl(130, 41%, 67%);
-	--dark-celadon: hsl(130, 41%, 40%);
-	--crayola-blue: hsl(221, 100%, 61%);
-	--dark-crayola-blue: hsl(221, 100%, 40%);
+	--snow-white: hsl(348, 29%, 97%);
+	--bittersweet: hsl(8, 100%, 68%);
+	--glaucous: hsl(226, 56%, 61%);
 
-	--bg-primary: var(--rich-black);
+	--bg-primary: var(--snow-white);
 
-	--text-primary: var(--lavender-blush);
-	--text-secondary: var(--celadon);
-	--text-tertiary: var(--rich-black);
-
-	--accent-primary: var(--crayola-blue);
-	--accent-secondary: var(--dark-crayola-blue);
+	--text-primary: var(--rich-black);
+	--text-secondary: var(--glaucous);
 }
 
 body,
@@ -23,4 +17,8 @@ html {
 	box-sizing: border-box;
 	background-color: var(--bg-primary);
 	color: var(--text-primary);
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }

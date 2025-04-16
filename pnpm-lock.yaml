@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      ag-grid-community:
+        specifier: ^33.2.3
+        version: 33.2.3
       pocketbase:
         specifier: ^0.25.2
         version: 0.25.2
@@ -520,6 +523,12 @@ packages:
     resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+
+  ag-charts-types@11.2.3:
+    resolution: {integrity: sha512-W7NcNp1z+6T6uBoguxjZUfhgY6085hHtv5a+8GCUwg7b9oWbxkWHsP0Cu5tDNo2mrqHic6BSzQd2w5d3X1clEg==}
+
+  ag-grid-community@33.2.3:
+    resolution: {integrity: sha512-a10k9e2MHVE7YrqqcFAoSTwI7kmAX5TS+z0uhqc6YFEprOvAZojZmLnWQM6hSQbjxnahX7gKEFR/GNbJD9F0NA==}
 
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
@@ -1508,6 +1517,12 @@ snapshots:
       acorn: 8.14.1
 
   acorn@8.14.1: {}
+
+  ag-charts-types@11.2.3: {}
+
+  ag-grid-community@33.2.3:
+    dependencies:
+      ag-charts-types: 11.2.3
 
   ajv@6.12.6:
     dependencies:

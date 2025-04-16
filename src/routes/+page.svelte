@@ -1,6 +1,6 @@
 <section class="hero">
-	<h1>Sveltekit Pocketbase Starter</h1>
-	<p>Minimal Starter Template to Get Started With Sveltekit & Pocketbase</p>
+	<h1>Bullet Tracker</h1>
+	<p>Minimalistic Bullet Journal Type Tracker For Your Daily Needs</p>
 </section>
 
 <style>
@@ -9,7 +9,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100vh;
+		flex-grow: 1;
+		height: 100%;
 	}
 
 	.hero h1 {

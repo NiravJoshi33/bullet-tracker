@@ -37,6 +37,7 @@
 		]
 	},
 	"dependencies": {
+		"ag-grid-community": "^33.2.3",
 		"pocketbase": "^0.25.2"
 	}
 }
